@@ -21,7 +21,8 @@ export default function Home() {
             <div className={styles.projectItem}>
               <h3 className={styles.projectTitle}>Invernadero</h3>
               <p className={styles.projectText}>
-                Monitor de temperatura, humedad e iluminación para invernaderos
+                Aplicación web para el monitoreo de temperatura, humedad e
+                iluminación de invernaderos.
               </p>
             </div>
           </Link>
@@ -29,7 +30,8 @@ export default function Home() {
             <div className={styles.projectItem}>
               <h3 className={styles.projectTitle}>Termotanque</h3>
               <p className={styles.projectText}>
-                Controlador electrónico para termotanques solares
+                Controlador electrónico para termotanques solares con interfaz
+                por aplicación movil.
               </p>
             </div>
           </Link>
@@ -37,7 +39,8 @@ export default function Home() {
             <div className={styles.projectItem}>
               <h3 className={styles.projectTitle}>Pretty Kitty Twitty</h3>
               <p className={styles.projectText}>
-                Bot de twitter para subir fotos de gatitos de manera periódica
+                Bot de Twitter para subir fotos de gatitos desde la cuenta del
+                usuario de manera periódica.
               </p>
             </div>
           </Link>

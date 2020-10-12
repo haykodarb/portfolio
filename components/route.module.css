@@ -4,8 +4,7 @@
   flex: 1;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: 40px;
+  justify-content: center;
   max-width: 100rem;
   color: white;
 }
@@ -14,10 +13,38 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  max-width: 30%;
+  align-items: center;
+  flex: 1;
   padding: 25px;
-  min-height: 500px;
   margin-left: 5%;
-  background-color: #14213d;
+  background-color: #e63946;
+  color: white;
+}
+
+.subContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.textLink {
+  min-width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a9d8f;
+  width: 30%;
+  height: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: "white";
+  margin: 0;
+  cursor: pointer;
+}
+
+.textLink:visited {
   color: white;
 }

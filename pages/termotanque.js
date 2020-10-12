@@ -1,35 +1,61 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../components/route.module.css";
 
 export default function Title() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Hayk - Termotanque</title>
-      </Head>
-      <img src="/invernadero.png" style={{ width: "65%", height: "65%" }}></img>
-      <div className={styles.textContainer}>
-        <a
-          href="https://prettykittytwitty.herokuapp.com/"
-          style={{ fontWeight: 700, color: "black", cursor: "pointer" }}
-        >
-          Monitor de invernaderos
-        </a>
-        <p style={{ fontSize: 16 }}>
-          Se trata de un controlador electrónico que permite al usuario accedear
-          a la data histórica de temperatura, humedad y luminosidad de su
-          invernadero.
-          <br />
-          <br /> El dispositivo se encuentra armado alrededor del
-          microcontrolador ESP8266, programado para obtener los valores de los
-          sensores cada 15 minutos y realizar un POST request a un servidor
-          externo. <br />
-          <br />
-          El servidor consiste de una aplicación realizada en Node/Express que
-          toma la data otorgada por el dispositivo y la guarda en una base de
-          datos MySQL. Luego el usuario puede acceder a la data de su
-          dispositivo iniciando sesión en la página web.
-        </p>
+      <div className={styles.subContainer}>
+        <Head>
+          <title>Hayk - Termotanque</title>
+        </Head>
+        <img
+          src="/termotanque.jpeg"
+          style={{ flex: 1, maxHeight: 500, maxWidth: 350 }}
+        ></img>
+        <div className={styles.textContainer}>
+          <h3 style={{ fontWeight: 700, color: "white" }}>
+            Controlador de termotanque solar.
+          </h3>
+          <p style={{ fontSize: 16, maxWidth: "80%", textAlign: "center" }}>
+            Se trata de un controlador electrónico que permite al usuario
+            acceder a un dispositivo encargado de controlar la resistencia
+            eléctrica de un termotanque solar.
+            <br />
+            <br /> El dispositivo se encuentra armado alrededor del
+            microcontrolador ESP8266, programado para obtener los valores de los
+            sensores, encender o apagar un relé mecánico en función de los
+            mismos y de compartir esa información mediante websockets y por
+            HTTP. <br />
+            <br />
+            El ESP8266 actúa como WebServer, al cual el usuario accede de manera
+            local a través de una aplicación movil para Android. <br /> <br />
+            Actualmente me encuentro desarrollando una versión más avanzada, con
+            aplicación desarrollada en React-Native, con capacidad de conectarse
+            a distintos dispositivos simultáneamente y de acceder a data
+            histórica del dispositivo.
+          </p>
+          <div
+            style={{
+              flex: 1,
+              minWidth: "70%",
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-evenly",
+              marginTop: 10,
+            }}
+          >
+            <Link href="/">
+              <p className={styles.textLink}>Inicio</p>
+            </Link>
+            <a
+              className={styles.textLink}
+              href="https://github.com/haykodarb/esp8266_waterHeater"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
