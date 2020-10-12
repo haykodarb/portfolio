@@ -11,7 +11,7 @@
 
 .homeTitle {
   display: flex;
-  background-color: #fca311;
+  background-color: #e76f51;
   color: white;
   width: 50%;
   align-items: center;
@@ -52,10 +52,10 @@
 }
 
 .projectTitle {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .projectText {
-  font-size: 15px;
+  font-size: 17px;
   max-width: 75%;
 }
