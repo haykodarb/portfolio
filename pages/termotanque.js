@@ -5,7 +5,7 @@ export default function Title() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Hayk - Pretty Kitty Twitty</title>
+        <title>Hayk - Termotanque</title>
       </Head>
       <img src="/invernadero.png" style={{ width: "65%", height: "65%" }}></img>
       <div className={styles.textContainer}>
