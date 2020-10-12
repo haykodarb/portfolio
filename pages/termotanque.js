@@ -11,7 +11,12 @@ export default function Termotanque() {
         </Head>
         <img
           src="/termotanque.jpeg"
-          style={{ flex: 1, maxHeight: 500, maxWidth: 350 }}
+          style={{
+            flex: 1,
+            minWidth: 250,
+            maxHeight: 500,
+            maxWidth: 400,
+          }}
         ></img>
         <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>

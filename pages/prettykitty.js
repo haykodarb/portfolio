@@ -9,7 +9,7 @@ export default function PrettyKitty() {
         <Head>
           <title>Hayk - Invernadero</title>
         </Head>
-        <img src="/prettykitty.png" style={{ height: 400 }}></img>
+        <img src="/prettykitty.png" style={{ maxWidth: 900 }}></img>
         <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Pretty Kitty Twitty

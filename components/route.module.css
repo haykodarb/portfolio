@@ -3,7 +3,8 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  align-items: flex-start;
+  flex-wrap: wrap-reverse;
+  align-items: center;
   justify-content: center;
   max-width: 100rem;
   color: white;
@@ -14,23 +15,26 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  flex: 1;
   padding: 25px;
-  margin-left: 5%;
+  min-width: 400px;
+  max-width: 60%;
   background-color: #e63946;
   color: white;
   border-width: 7.5px;
   border-color: #1d3557;
   border-style: solid;
+  margin-bottom: 3%;
 }
 
 .subContainer {
   display: flex;
+  flex-wrap: wrap-reverse;
   flex: 1;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 40px;
+  justify-content: space-evenly;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .textLink {

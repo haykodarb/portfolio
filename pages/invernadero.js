@@ -9,7 +9,7 @@ export default function Invernadero() {
         <Head>
           <title>Hayk - Invernadero</title>
         </Head>
-        <img src="/invernadero.png" style={{ height: 500 }}></img>
+        <img src="/invernadero.png" style={{ maxWidth: 900 }}></img>
         <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Monitor de invernaderos
