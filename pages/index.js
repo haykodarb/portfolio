@@ -14,7 +14,7 @@ export default function Home() {
           <h1>Hayk Darbinyan</h1>
         </div>
         <div className={styles.test}>
-          <h2>Portfolio</h2>
+          <h2>Portfolio realizado en Next.js</h2>
         </div>
         <div className={styles.projectContainer}>
           <Link href="/invernadero">
