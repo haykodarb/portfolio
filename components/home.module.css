@@ -14,7 +14,9 @@
   background-color: #e63946;
   justify-content: space-evenly;
   color: white;
-  width: 50%;
+  min-width: 40%;
+  max-width: 80%;
+  text-align: center;
   align-items: center;
   justify-content: center;
   border-width: 5px;
@@ -23,47 +25,47 @@
   font-size: 22px;
   font-weight: 700;
   cursor: default;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .homeSubtitle {
   cursor: default;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 80%;
+  text-align: center;
   align-items: center;
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
-  width: 50%;
 }
 
 .projectContainer {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   flex-direction: row;
-  min-width: 80%;
-  min-height: 12rem;
+  max-width: 100%;
 }
 
 .projectItem {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
   flex: 1;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  max-width: 28%;
-  min-height: inherit;
-  padding-inline-start: 30px;
-  padding-inline-end: 30px;
+  min-height: 11.5rem;
+  min-width: 300px;
+  max-width: 30%;
   background-color: #14213d;
   box-shadow: 7px 7px 7px #457b9d;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  margin: 2%;
 }
 
 .projectTitle {
@@ -78,27 +80,32 @@
 .techContainer {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-top: 1.5rem;
   background-color: #293241;
-  min-width: 50rem;
+  width: 70%;
   align-items: center;
   justify-content: center;
   color: white;
   cursor: default;
+  margin-bottom: 3%;
 }
 
 .techList {
   display: flex;
+  flex: 1;
   flex-direction: row;
+  min-width: 100%;
   justify-content: space-evenly;
   align-items: baseline;
-  min-width: 100%;
   flex-wrap: wrap;
   list-style-type: square;
+  list-style-position: inside;
   cursor: default;
 }
 
 .techTitle {
+  text-align: center;
   font-size: 25px;
   margin-bottom: 0px;
   font-weight: 600;

@@ -9,7 +9,7 @@ export default function Index() {
       <Head>
         <title>Hayk</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initialscale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className={styles.container}>
         <div className={styles.homeTitle}>
@@ -58,13 +58,13 @@ export default function Index() {
         <div className={styles.techContainer}>
           <p className={styles.techTitle}>Tecnologías utilizadas</p>
           <ul className={styles.techList}>
-            <li>Javascript</li>
-            <li>HTML/CSS</li>
-            <li>Node.js</li>
-            <li>{"React (Web & Native)"}</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Arduino</li>
+            <li className={styles.listItem}>Javascript</li>
+            <li className={styles.listItem}>HTML/CSS</li>
+            <li className={styles.listItem}>Node.js</li>
+            <li className={styles.listItem}>{"React (Web & Native)"}</li>
+            <li className={styles.listItem}>MySQL</li>
+            <li className={styles.listItem}>MongoDB</li>
+            <li className={styles.listItem}>Arduino</li>
           </ul>
         </div>
       </div>
