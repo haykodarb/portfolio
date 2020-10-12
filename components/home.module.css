@@ -33,6 +33,7 @@
   padding-inline-start: 30px;
   padding-inline-end: 30px;
   background-color: #14213d;
+  box-shadow: 7px 7px 7px #457b9d;
   color: white;
   border-radius: 5px;
   cursor: pointer;
