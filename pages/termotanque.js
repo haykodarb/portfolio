@@ -64,6 +64,8 @@ export default function Termotanque() {
             <a
               className={styles.textLink}
               href="https://github.com/haykodarb/esp8266_waterHeater"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               GitHub
             </a>

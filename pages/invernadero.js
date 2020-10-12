@@ -45,11 +45,18 @@ export default function Invernadero() {
             <a
               className={styles.textLink}
               href="https://github.com/haykodarb/nodejs_greenhouse"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               GitHub
             </a>
 
-            <a className={styles.textLink} href="https://kassen.herokuapp.com/">
+            <a
+              className={styles.textLink}
+              href="https://kassen.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Link
             </a>
           </div>

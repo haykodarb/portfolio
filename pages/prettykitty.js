@@ -40,6 +40,8 @@ export default function PrettyKitty() {
             <a
               className={styles.textLink}
               href="https://github.com/haykodarb/node_prettykittytwitty"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               GitHub
             </a>
@@ -47,6 +49,8 @@ export default function PrettyKitty() {
             <a
               className={styles.textLink}
               href="https://prettykittytwitty.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               Link
             </a>
