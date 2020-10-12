@@ -14,7 +14,7 @@ export default function PrettyKitty() {
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Pretty Kitty Twitty
           </h3>
-          <p style={{ fontSize: 16, cursor: "default" }}>
+          <p style={{ fontSize: 16, cursor: "default", maxWidth: "75%" }}>
             Consiste de un bot de Twitter al que se inicia sesión con su propia
             cuenta.
             <br /> El usuario entonces puede subir imágenes de gatitos y esperar

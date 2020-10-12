@@ -14,7 +14,7 @@ export default function Invernadero() {
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Monitor de invernaderos
           </h3>
-          <p style={{ fontSize: 16, cursor: "default" }}>
+          <p style={{ fontSize: 16, cursor: "default", maxWidth: "75%" }}>
             Se trata de un controlador electrónico que permite al usuario
             accedear a la data histórica de temperatura, humedad y luminosidad
             de su invernadero.

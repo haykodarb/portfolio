@@ -8,6 +8,7 @@
   justify-content: center;
   max-width: 100rem;
   color: white;
+  padding-bottom: 2%;
 }
 
 .textContainer {
@@ -17,7 +18,7 @@
   align-items: center;
   padding: 25px;
   min-width: 400px;
-  max-width: 60%;
+  max-width: 80%;
   background-color: #e63946;
   color: white;
   border-width: 7.5px;

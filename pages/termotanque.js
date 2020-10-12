@@ -18,7 +18,7 @@ export default function Termotanque() {
             maxWidth: 400,
           }}
         ></img>
-        <div className={styles.textContainer}>
+        <div className={styles.textContainer} style={{ maxWidth: "60%" }}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Controlador de termotanque solar.
           </h3>
@@ -43,7 +43,7 @@ export default function Termotanque() {
             WebSockets y por HTTP, al cual el usuario accede de manera local a
             través de una aplicación movil.
             <br /> <br />
-            Actualmente me encuentro desarrollando una versión más avanzada, con
+            Actualmente me encuentro trabajando en una versión más avanzada, con
             aplicación desarrollada en React-Native, con capacidad de conectarse
             a distintos dispositivos simultáneamente y de acceder a data
             histórica del dispositivo.
