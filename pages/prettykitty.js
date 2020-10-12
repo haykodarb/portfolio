@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import styles from "../components/route.module.css";
 
-export default function Title() {
+export default function PrettyKitty() {
   return (
     <div className={styles.container}>
       <div className={styles.subContainer} style={{ maxWidth: "100%" }}>
