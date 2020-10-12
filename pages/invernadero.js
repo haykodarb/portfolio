@@ -9,20 +9,20 @@ export default function Title() {
         <Head>
           <title>Hayk - Invernadero</title>
         </Head>
-        <img src="/invernadero.png" style={{ height: 400 }}></img>
+        <img src="/invernadero.png" style={{ height: 500 }}></img>
         <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Monitor de invernaderos
           </h3>
-          <p style={{ fontSize: 16 }}>
+          <p style={{ fontSize: 16, cursor: "default" }}>
             Se trata de un controlador electrónico que permite al usuario
             accedear a la data histórica de temperatura, humedad y luminosidad
             de su invernadero.
             <br />
             <br /> El dispositivo se encuentra armado alrededor del
             microcontrolador ESP8266, programado para obtener los valores de los
-            sensores cada 15 minutos y realizar un POST request a un servidor
-            externo. <br />
+            sensores cada 15 minutos y realizar un POST a un servidor externo.
+            <br />
             <br />
             El servidor consiste de una aplicación realizada en Node/Express que
             toma la data otorgada por el dispositivo y la guarda en una base de

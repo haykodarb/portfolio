@@ -14,10 +14,17 @@ export default function Title() {
           style={{ flex: 1, maxHeight: 500, maxWidth: 350 }}
         ></img>
         <div className={styles.textContainer}>
-          <h3 style={{ fontWeight: 700, color: "white" }}>
+          <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Controlador de termotanque solar.
           </h3>
-          <p style={{ fontSize: 16, maxWidth: "80%", textAlign: "center" }}>
+          <p
+            style={{
+              fontSize: 16,
+              maxWidth: "80%",
+              textAlign: "center",
+              cursor: "default",
+            }}
+          >
             Se trata de un controlador electrónico que permite al usuario
             acceder a un dispositivo encargado de controlar la resistencia
             eléctrica de un termotanque solar.
