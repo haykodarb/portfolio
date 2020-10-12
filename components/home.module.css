@@ -1,0 +1,57 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100rem;
+  color: #1d3557;
+}
+
+.projectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: row;
+  min-width: 80%;
+  min-height: 15rem;
+}
+
+.projectItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  max-width: 28%;
+  height: 15rem;
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+  background-color: #14213d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projectTitle {
+  font-size: 25px;
+}
+
+.projectText {
+  font-size: 15px;
+  max-width: 75%;
+}
+
+.homeTitle {
+  display: flex;
+  background-color: #fca311;
+  color: white;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
