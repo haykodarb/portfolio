@@ -65,6 +65,7 @@ export default function Index() {
             <li className={styles.listItem}>MySQL</li>
             <li className={styles.listItem}>MongoDB</li>
             <li className={styles.listItem}>Arduino</li>
+            <li className={styles.listItem}>Next.js</li>
           </ul>
         </div>
       </div>
