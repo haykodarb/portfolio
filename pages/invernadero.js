@@ -57,7 +57,7 @@ export default function Invernadero() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Link
+              Web
             </a>
           </div>
         </div>

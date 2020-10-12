@@ -52,7 +52,7 @@ export default function PrettyKitty() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Link
+              Web
             </a>
           </div>
         </div>
