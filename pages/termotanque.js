@@ -25,11 +25,12 @@ export default function Title() {
             <br /> El dispositivo se encuentra armado alrededor del
             microcontrolador ESP8266, programado para obtener los valores de los
             sensores, encender o apagar un relé mecánico en función de los
-            mismos y de compartir esa información mediante websockets y por
-            HTTP. <br />
+            mismos. <br />
             <br />
-            El ESP8266 actúa como WebServer, al cual el usuario accede de manera
-            local a través de una aplicación movil para Android. <br /> <br />
+            El ESP8266 actúa como WebServer sirviendo información mediante
+            WebSockets y por HTTP, al cual el usuario accede de manera local a
+            través de una aplicación movil.
+            <br /> <br />
             Actualmente me encuentro desarrollando una versión más avanzada, con
             aplicación desarrollada en React-Native, con capacidad de conectarse
             a distintos dispositivos simultáneamente y de acceder a data
