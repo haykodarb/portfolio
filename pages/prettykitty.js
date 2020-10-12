@@ -8,8 +8,15 @@ export default function PrettyKitty() {
       <div className={styles.subContainer} style={{ maxWidth: "100%" }}>
         <Head>
           <title>Hayk - Invernadero</title>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
         </Head>
-        <img src="/prettykitty.png" style={{ maxWidth: 900 }}></img>
+        <img
+          src="/prettykitty.png"
+          style={{ maxWidth: 900, width: "100%" }}
+        ></img>
         <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Pretty Kitty Twitty
