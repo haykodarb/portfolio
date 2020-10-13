@@ -5,7 +5,7 @@ import styles from "../components/route.module.css";
 export default function Invernadero() {
   return (
     <div className={styles.container}>
-      <div className={styles.subContainer} style={{ maxWidth: "70%" }}>
+      <div className={styles.subContainer} style={{ maxWidth: 950 }}>
         <Head>
           <title>Hayk - Invernadero</title>
           <meta
@@ -21,7 +21,7 @@ export default function Invernadero() {
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Monitor de invernaderos
           </h3>
-          <p style={{ fontSize: 16, cursor: "default", maxWidth: "60%" }}>
+          <p style={{ fontSize: 16, cursor: "default", maxWidth: "85%" }}>
             Se trata de un controlador electrónico que permite al usuario
             accedear a la data histórica de temperatura, humedad y luminosidad
             de su invernadero.
