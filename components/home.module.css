@@ -1,12 +1,12 @@
 .container {
   margin-top: 1rem;
   display: flex;
-  flex: 1;
+  flex-grow: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 100rem;
   color: #1d3557;
+  min-height: 100%;
 }
 
 .homeTitle {
@@ -44,9 +44,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
+  max-width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
-  max-width: 100%;
 }
 
 .projectItem {
@@ -82,6 +82,7 @@
   margin-top: 1.5rem;
   background-color: #293241;
   width: 80%;
+  max-width: 1000px;
   align-items: center;
   justify-content: center;
   color: white;

@@ -5,7 +5,14 @@ import { GitHub, Mail } from "react-feather";
 
 export default function Index() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "white",
+        flex: 1,
+        display: "flex",
+        flexGrow: 1,
+      }}
+    >
       <Head>
         <title>Hayk</title>
         <link rel="icon" href="/favicon.ico" />

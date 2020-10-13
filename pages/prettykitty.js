@@ -7,7 +7,7 @@ export default function PrettyKitty() {
     <div className={styles.container}>
       <div className={styles.subContainer} style={{ maxWidth: "100%" }}>
         <Head>
-          <title>Hayk - Invernadero</title>
+          <title>Hayk - Pretty Kitty Twitty</title>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
