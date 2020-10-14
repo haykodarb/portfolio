@@ -18,10 +18,7 @@ export default function Termotanque() {
             maxWidth: 400,
           }}
         ></img>
-        <div
-          className={styles.textContainer}
-          style={{ maxWidth: 700, width: "90%" }}
-        >
+        <div className={styles.textContainer}>
           <h3 style={{ fontWeight: 700, color: "white", cursor: "default" }}>
             Controlador de termotanque solar.
           </h3>
