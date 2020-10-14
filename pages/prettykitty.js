@@ -22,14 +22,13 @@ export default function PrettyKitty() {
             Pretty Kitty Twitty
           </h3>
           <p style={{ fontSize: 16, cursor: "default", maxWidth: "75%" }}>
-            Consiste de un bot de Twitter al que se inicia sesión con su propia
-            cuenta.
-            <br /> El usuario entonces puede subir imágenes de gatitos y esperar
-            a que el bot las suba periódicamente. <br />
+            Consiste de un bot de Twitter al que uno inicia sesión con su propia
+            cuenta. El usuario entonces puede subir imágenes de gatitos y
+            esperar a que el bot las suba periódicamente. <br />
             <br />
             Utiliza una API externa para filtrar el contenido de las imágenes
-            antes de subirlas a una base de datos mongoDB. <br /> Luego un
-            cronjob se encarga de twittear una de las fotos cada 3 horas.
+            antes de subirlas a una base de datos mongoDB. Luego un cronjob se
+            encarga de twittear una de las fotos cada 3 horas.
           </p>
           <div
             style={{

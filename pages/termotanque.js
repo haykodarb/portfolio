@@ -26,7 +26,6 @@ export default function Termotanque() {
             style={{
               fontSize: 16,
               maxWidth: "80%",
-              textAlign: "center",
               cursor: "default",
             }}
           >
