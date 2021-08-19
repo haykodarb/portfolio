@@ -5,8 +5,7 @@ const CustomHead = ({ title }) => {
 		if (title) {
 			return `Hayk - ${title}`;
 		}
-
-		return "Hayk Darbinyan";
+		return "Hayk";
 	};
 
 	return (
