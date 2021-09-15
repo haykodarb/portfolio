@@ -6,7 +6,7 @@
       "title": "Invernadero",
       "description": "Aplicación web para el monitoreo de temperatura, humedad e iluminación de invernaderos.",
       "internalDetails": {
-        "image": "/invernadero.png",
+        "images": ["/invernadero.png"],
         "title": "Monitor de invernaderos",
         "description": "Se trata de un controlador electrónico que permite al usuario accedear a la data histórica de temperatura, humedad y luminosidad de su invernadero. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores cada 15 minutos y realizar un POST a un servidor externo.<br /><br />El servidor consiste de una aplicación realizada en Node/Express que toma la data otorgada por el dispositivo y la guarda en una base de datos MySQL. Luego el usuario puede acceder a la data de su dispositivo iniciando sesión en la página web.",
         "githubLink": "https://github.com/haykodarb/nodejs_greenhouse",
@@ -19,10 +19,9 @@
       "title": "Termotanque",
       "description": "Controlador electrónico para termotanques solares con interfaz por aplicación movil.",
       "internalDetails": {
-        "image": "/termotanque.jpeg",
+        "images": ["/termotanque1.jpg", "/termotanque2.jpg","/termotanque3.jpg"],
         "title": "Controlador de termotanque solar.",
-        "description": "Se trata de un controlador electrónico que permite al usuario acceder a un dispositivo encargado de controlar la resistencia eléctrica de un termotanque solar. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores, encender o apagar un relé mecánico en función de los mismos. <br /><br /> El ESP8266 actúa como WebServer sirviendo información mediante WebSockets y por HTTP, al cual el usuario accede de manera local a través de una aplicación movil. <br /><br /> Actualmente me encuentro trabajando en una versión más avanzada, con aplicación desarrollada en React-Native, con capacidad de conectarse a distintos dispositivos simultáneamente y de acceder a data histórica del dispositivo.",
-        "githubLink": "https://github.com/haykodarb/esp8266_waterHeater"
+        "description": "Se trata de un controlador electrónico que permite al usuario acceder a un dispositivo encargado de controlar la resistencia eléctrica de un termotanque solar. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores, encender o apagar un relé mecánico en función de los mismos. <br /><br /> El microcontrolador actúa como WebServer, sirviendo información mediante WebSockets y por HTTP, al cual el usuario accede de manera local a través de una aplicación movil. <br /><br />Dicha aplicación está desarrollada en Flutter, con capacidad de conectarse a distintos dispositivos simultáneamente, acceder a data histórica del dispositivo y ajustar los parámetros de control del dispositivo."
       }
     },
     {
@@ -31,7 +30,7 @@
       "title": "Pretty Kitty Twitty",
       "description": "Bot de Twitter para subir fotos de gatitos desde la cuenta del usuario de manera periódica.",
       "internalDetails": {
-        "image": "/prettykitty.png",
+        "images": ["/prettykitty.png"],
         "title": "Pretty Kitty Twitty",
         "description": "Consiste de un bot de Twitter al que uno inicia sesión con su propia cuenta. El usuario entonces puede subir imágenes de gatitos y esperar a que el bot las suba periódicamente. <br /><br />Utiliza una API externa para filtrar el contenido de las imágenes antes de subirlas a una base de datos mongoDB. Luego un cronjob se encarga de twittear una de las fotos cada 3 horas.",
         "githubLink": "https://github.com/haykodarb/node_prettykittytwitty",
