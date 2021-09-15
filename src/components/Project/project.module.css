@@ -28,6 +28,7 @@
 	justify-content: space-evenly;
 	width: 100%;
 	flex-grow: 1;
+	flex-wrap: wrap;
 	display: flex;
 }
 
@@ -56,6 +57,7 @@
 .image {
 	max-width: 900px;
 	max-height: 700px;
+	margin-bottom: 40px;
 }
 
 .title {
