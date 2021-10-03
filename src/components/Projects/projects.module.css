@@ -1,8 +1,25 @@
 .container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  max-width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	cursor: default;
+	padding-top: 2%;
+	margin-bottom: 2%;
+}
+
+.title {
+	text-align: center;
+	text-decoration: underline dotted 3px;
+}
+
+.subContainer {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 100%;
+	flex-wrap: wrap;
+	flex-direction: row;
 }

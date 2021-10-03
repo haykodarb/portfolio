@@ -1,26 +1,27 @@
 .item {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  min-height: 11.5rem;
-  min-width: 300px;
-  max-width: 30%;
-  background-color: #14213d;
-  box-shadow: 7px 7px 7px #457b9d;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 1%;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	min-height: 11.5rem;
+	min-width: 300px;
+	max-width: 30%;
+	background-color: #14213d;
+	box-shadow: 7px 7px 7px #457b9d;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 1%;
+	margin-bottom: 4%;
 }
 
 .title {
-  font-size: 28px;
+	font-size: 28px;
 }
 
 .description {
-  font-size: 17px;
-  max-width: 70%;
-  text-align: left;
+	font-size: 17px;
+	max-width: 70%;
+	text-align: left;
 }
