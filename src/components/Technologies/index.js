@@ -9,26 +9,19 @@ const Technologies = () => {
 					<h3 className={styles.subCategoryTitle}>Front-End</h3>
 					<ul className={styles.techList}>
 						<li className={styles.listItem}>
-							<img
-								src="/tech/react.png"
-								style={{
-									height: 75,
-									width: 75,
-									alignSelf: "center",
-								}}
-							/>
+							<img src="/tech/react.png" className={styles.itemImage} />
 							<p>React (Web/Native)</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/nextjs.svg" height="75px" />
+							<img src="/tech/nextjs.svg" className={styles.itemImage} />
 							<p>Next.js</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/flutter.png" height="75px" />
+							<img src="/tech/flutter.png" className={styles.itemImage} />
 							<p>Flutter</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/qt.png" height="75px" />
+							<img src="/tech/qt.png" className={styles.itemImage} />
 							<p>QT/QML</p>
 						</li>
 					</ul>
@@ -37,19 +30,19 @@ const Technologies = () => {
 					<h3 className={styles.subCategoryTitle}>Back-End</h3>
 					<ul className={styles.techList}>
 						<li className={styles.listItem}>
-							<img src="/tech/nodejs.png" height="75px" />
+							<img src="/tech/nodejs.png" className={styles.itemImage} />
 							<p>Node.js</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/mysql.png" height="75px" />
+							<img src="/tech/mysql.png" className={styles.itemImage} />
 							<p>MySQL </p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/mongodb.png" height="75px" />
+							<img src="/tech/mongodb.png" className={styles.itemImage} />
 							<p>MongoDB</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/linux.png" height="75px" />
+							<img src="/tech/linux.png" className={styles.itemImage} />
 							<p>Linux</p>
 						</li>
 					</ul>
@@ -59,26 +52,19 @@ const Technologies = () => {
 					<h3 className={styles.subCategoryTitle}>Electrónica</h3>
 					<ul className={styles.techList}>
 						<li className={styles.listItem}>
-							<img
-								src="/tech/c.png"
-								style={{
-									height: 75,
-									width: 75,
-									alignSelf: "center",
-								}}
-							/>
+							<img src="/tech/c.png" className={styles.itemImage} />
 							<p>Embedded C / C++</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/kicad.png" height="75px" />
+							<img src="/tech/kicad.png" className={styles.itemImage} />
 							<p>KiCAD</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/rtos.png" height="75px" />
+							<img src="/tech/rtos.png" className={styles.itemImage} />
 							<p>RTOS</p>
 						</li>
 						<li className={styles.listItem}>
-							<img src="/tech/iot.png" height="75px" />
+							<img src="/tech/iot.png" className={styles.itemImage} />
 							<p>IoT</p>
 						</li>
 					</ul>
