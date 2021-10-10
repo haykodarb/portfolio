@@ -36,11 +36,8 @@
 	display: flex;
 	flex: 1;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	flex-wrap: wrap;
-	list-style-type: disc;
-	list-style-position: inside;
+	list-style-type: none;
 	cursor: default;
 }
 
@@ -51,8 +48,12 @@
 }
 
 .listItem {
-	margin: 0.5%;
-	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
 	justify-content: center;
+	margin: 0.5%;
+	text-align: center;
 	width: 200px;
 }
