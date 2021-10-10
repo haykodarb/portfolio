@@ -1,7 +1,8 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	background-color: #293241;
+
+	background-color: #183a37;
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
@@ -49,6 +50,8 @@
 .techTitle {
 	text-align: center;
 	text-decoration: underline dotted 3px;
+	font-size: 35px;
+	flex: 1;
 }
 
 .listItem {
