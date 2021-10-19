@@ -8,7 +8,7 @@
       "internalDetails": {
         "images": ["/invernadero.png"],
         "title": "Monitor de invernaderos",
-        "description": "Se trata de un controlador electrónico que permite al usuario accedear a la data histórica de temperatura, humedad y luminosidad de su invernadero. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores cada 15 minutos y realizar un POST a un servidor externo.<br /><br />El servidor consiste de una aplicación realizada en Node/Express que toma la data otorgada por el dispositivo y la guarda en una base de datos MySQL. Luego el usuario puede acceder a la data de su dispositivo iniciando sesión en la página web.",
+        "description": "Se trata de un controlador electrónico que permite al usuario accedear a la data histórica de temperatura, humedad y luminosidad de su invernadero. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores cada 15 minutos y realizar un POST a un servidor externo.<br /><br />El servidor consiste de una aplicación realizada en Node/Express que toma la data otorgada por el dispositivo y la guarda en una base de datos MySQL. Luego el usuario puede acceder a la data de su dispositivo iniciando sesión en la página web. <br /><br />Para probar la app se puede ingresar con usuario y contraseña 'guest123'.",
         "githubLink": "https://github.com/haykodarb/nodejs_greenhouse",
         "webLink": "https://kassen.hayk.ar/"
       }
