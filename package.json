@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.11",
+    "gray-matter": "^4.0.3",
+    "marked": "^4.0.19",
     "next": "9.5.3",
     "next-seo": "^4.26.0",
     "react": "16.13.1",
