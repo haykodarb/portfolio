@@ -3,12 +3,14 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    width: 25%;
+    width: min-content;
 }
 
 
 .link {
     font-size: 22px;
+    padding-left: 20%;
+    padding-right: 20%;
     flex: 1;
     color: crimson;
     font-weight: 600;

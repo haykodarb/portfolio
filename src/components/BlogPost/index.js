@@ -20,7 +20,7 @@ function Header() {
 export default function BlogPost({ data, content, }) {
 
     return <>
-        <Head/>
+        <Head title = {data.title}/>
         <Header />
         <div className={styles['container']}>
             <h1 className={styles['title']}>

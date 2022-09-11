@@ -3,13 +3,14 @@ import matter from 'gray-matter';
 import path from 'path';
 import Link from 'next/link';
 import styles from './style/blog.module.css';
+import Head from '../../components/Head';
 
 
 function Header() {
     return <header className={styles['header']}>
-            <Link href='/'>
-                <p className={styles['link']}>Home</p>
-            </Link>
+        <Link href='/'>
+            <p className={styles['link']}>Home</p>
+        </Link>
     </header>
 }
 
@@ -17,6 +18,7 @@ function Header() {
 export default function BlogIndex({ posts }) {
     console.log(posts);
     return <div className={styles['container']}>
+        <Head title='Blog'/>
         <Header />
         <h1 className={styles['title']}>Blog</h1>
         {posts.map(element => {
