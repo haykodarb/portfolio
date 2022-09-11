@@ -6,6 +6,7 @@
 
 .headerLinks {
     width: 25%;
+    min-width: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;

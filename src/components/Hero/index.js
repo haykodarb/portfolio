@@ -1,5 +1,6 @@
 import styles from "./hero.module.css";
-import { GitHub, Mail } from "react-feather";
+import { GitHub, Mail, PenTool } from "react-feather";
+import Link from "next/link";
 
 const Hero = () => {
 	return (
@@ -8,9 +9,6 @@ const Hero = () => {
 				<h1>Hayk Darbinyan</h1>
 			</div>
 			<div className={styles.subtitle}>
-				<h2 style={{ flex: 8, textAlign: "center" }}>
-					Portfolio realizado en Next.js
-				</h2>
 				<a
 					href="https://github.com/haykodarb"
 					target="_blank"
@@ -22,6 +20,14 @@ const Hero = () => {
 				<a href="mailto:haykodarb@gmail.com" style={{ flex: 1 }}>
 					<Mail color="#14213d" size={45} />
 				</a>
+				<div style={{ flex: 1, cursor: "pointer", alignItems: 'center' }}>
+
+					<Link href='/blog'>
+						<a href="/blog">
+							<PenTool color="#14213d" size={45} />
+						</a>
+					</Link>
+				</div>
 			</div>
 		</>
 	);
