@@ -17,6 +17,7 @@
     color: crimson;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .container {
@@ -41,4 +42,6 @@
     color: crimson;
     cursor: pointer;
     margin-bottom: 0;
+    text-decoration: none;
+
 }

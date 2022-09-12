@@ -31,7 +31,9 @@ const Project = ({ data }) => {
 					/>
 					<div className={styles.buttonsGroup}>
 						<Link href="/">
-							<p className={styles.textLink}>Inicio</p>
+							<a className={styles.textLink}>
+							<p >Inicio</p>
+							</a>
 						</Link>
 
 						{internalDetails.githubLink && (

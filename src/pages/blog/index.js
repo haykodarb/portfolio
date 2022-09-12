@@ -9,7 +9,9 @@ import Head from '../../components/Head';
 function Header() {
     return <header className={styles['header']}>
         <Link href='/'>
-            <p className={styles['link']}>Home</p>
+            <a className={styles['link']}>
+                <p>Home</p>
+            </a>
         </Link>
     </header>
 }
@@ -25,7 +27,9 @@ export default function BlogIndex({ posts }) {
             {posts.map(element => {
                 return <div key={element.file}>
                     <Link href={`/blog/${element.file}`}>
-                        <h4 className={styles['subtitle']}>{element.data.title}</h4>
+                        <a className={styles['subtitle']}>
+                            <h4 style={{marginBottom: 0}} >{element.data.title}</h4>
+                        </a>
                     </Link>
 
                     <p>{element.data.description}</p>

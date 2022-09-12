@@ -4,10 +4,10 @@ import styles from "./project.module.css";
 const ProjectLink = ({ href, title, description }) => {
   return (
     <Link href={href}>
-      <div className={styles.item}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
-      </div>
+      <a className={styles.item}>
+          <h3 className={styles.title}>{title}</h3>
+          <p className={styles.description}>{description}</p>
+      </a>
     </Link>
   );
 };
