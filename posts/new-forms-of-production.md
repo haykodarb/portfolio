@@ -21,14 +21,14 @@ The vast majority of Open Source tools are perfectly available for anyone to use
 
 The privilege of belonging to a community which adheres to the “to each according to his needs” half of the slogan is not exclusive to programmers, artists can build wonderful things exclusively by using tools like Krita, Blender and Inkscape, gamemakers can use Godot, and virtually anyone can watch media using VLC, browse the web in Firefox, send emails through Thunderbird, write articles in LibreOffice, etc, etc.
 
-So, who creates this wonderful tools, who offers their living labour to be turned into dead labour that escapes it’s fate as capital and ends up as collective wealth? Well, people dedicating their free time to do (mostly) unpaid and voluntary labour because they wish to build marvelous things alongside each other. It is usually workers looking to build tools that they’d like to have at their disposal, hoping to escape the division of labour that plagues their everyday lives, to escape the alienation of selling their labour-force to a capitalist and wishing to prove their potential as something more than money-making machines.
+So, who creates these wonderful tools, who offers their living labour to be turned into dead labour that escapes it’s fate as capital and ends up as collective wealth? Well, people dedicating their free time to do (mostly) unpaid and voluntary labour because they wish to build marvelous things alongside each other. It is usually workers looking to build tools that they’d like to have at their disposal, hoping to escape the division of labour that plagues their everyday lives, to escape the alienation of selling their labour-force to a capitalist and wishing to prove their potential as something more than money-making machines.
 
 It’s workers trying to break free of their condition as workers and return to being people, who contribute as they can and who take as they need. They have found a certain freedom in their labour which they are robbed of in their day-to-day jobs.
 These are the people who fulfill the “From each according to their abilities” half of the slogan. They contribute as much as they can, whenever they can, however they can.
 
 The anti-capitalist nature of Open Source Software should be evident in this quote from Marx, from Chapter 5 of Wage Labour and Capital:
 
-> Capital does not consist in the fact that dead labour serves living labour as a means for new production. It consists in the fact that living labour serves dead labour as the means of preserving and multiplying its exchange value. [[link]](https://www.marxists.org/archive/marx/works/1847/wage-labour/ch05.htm)
+> Capital does not consist in the fact that dead labour serves living labour as a means for new production. It consists in the fact that living labour serves dead labour as the means of preserving and multiplying it's exchange value. [[link]](https://www.marxists.org/archive/marx/works/1847/wage-labour/ch05.htm)
 
 It should be fairly obvious now that the production of Open Source Software consists of dead labour serving living labour as a means of creating new tools and services and not as a dominion of dead labour over living labour in the pursuit of profit.
 
@@ -50,7 +50,7 @@ Secondly, the specific efficiency that software has when it comes to creating co
 
 Finally, perhaps it’s most important characteristic, it’s permanence. Tecnological developments are borderline impossible to erase. Thus, any labour that goes into Open Source Software irrevocably becomes part of a source of collective wealth that benefits the entire planet indiscriminately.
 
-This characteristics, combined with the possibility of escaping capitalist production both in labour and in consumption are what give Free and Open Source Software it’s revolutionary character.
+These characteristics, combined with the possibility of escaping capitalist production both in labour and in consumption are what give Free and Open Source Software it’s revolutionary character.
 
 Now, on the topic of actually existing contradictions within the Open Source community and the dialectical relationship it has with Capitalism. 
 
@@ -58,7 +58,7 @@ There are a couple of such contradictions that one has to look at when studying 
 
 The most common example would be developers who built a tool following in the open source tradition and then decided to create a company around said tool. Usually they still provide the code for free, same as any other FOSS tool, but they try to make money either by selling development or consulting services related to the software or by taking donations from the community.
 
-This is, I would argue, still a case of socialist production since the materialized labour still ends up as a public good and is not itself being sold on a market to make a profit. But it would also be easy to argue that this is a case of capitalist production, since there is a clear profit motive governing the actions of this developers, and without the monetary incentive they might be spending their time elsewhere, thus indicating a dominion of capital over living labour.
+This is, I would argue, still a case of socialist production since the materialized labour still ends up as a public good and is not itself being sold on a market to make a profit. But it would also be easy to argue that this is a case of capitalist production, since there is a clear profit motive governing the actions of the developers, and without the monetary incentive they might be spending their time elsewhere, thus indicating a dominion of capital over living labour.
 
 Another contradiction to look at when examining the dialectics of Open Source production is that of developers who are employed, ie. selling their labour-force, to traditionally capitalistic companies who hire them to build Open Source tools. For example, a company like Google developing a tool like Flutter or Facebook creating the React framework. This is a clear example of capitalist exploitation of living-labour except for the fact that, upon closer look, this living labour isn’t used to “multiply the exchange value of capital”. The tools they build are released to be used and reproduced by the community with few restrictions, so, what’s the catch? 
 
@@ -67,7 +67,7 @@ Well, one might argue that these companies have ulterior motives when engaging i
 The point being that these contradictions that I’ve listed don’t argue against the revolutionary potential of this new form of production, but in favour of it. If the FOSS community did not engage with Capital in any shape or form it would be profoundly boring and not deserving of as much attention as it currently is.
 
 Quoting Hegel: 
-> Abstract self-identity has no vitality, but the positive, being in its own self a negativity, goes outside itself and undergoes alteration. Something is therefore alive only in so far as it contains contradiction within it, and moreover is this power to hold and endure the contradiction within it. [[link]](https://www.marxists.org/reference/archive/hegel/works/hl/hl431.htm)
+> Abstract self-identity has no vitality, but the positive, being in it's own self a negativity, goes outside itself and undergoes alteration. Something is therefore alive only in so far as it contains contradiction within it, and moreover is this power to hold and endure the contradiction within it. [[link]](https://www.marxists.org/reference/archive/hegel/works/hl/hl431.htm)
 
 Any proper marxist should thus be able to agree that, if the creation of Open Source tools was completely isolated from Capital, and the community’s progress dictated exclusively by a linear dependence to it's quantitative output, then it would be impossible to find any revolutionary characteristics within it.
 
