@@ -13,21 +13,23 @@ const Hero = () => {
 					href="https://github.com/haykodarb"
 					target="_blank"
 					rel="noreferrer noopener"
-					style={{ flex: 1 }}
 				>
 					<GitHub color="#14213d" size={45} />
+					GitHub
 				</a>
-				<a href="mailto:haykodarb@gmail.com" style={{ flex: 1 }}>
+				<a href="mailto:work@hayk.ar" >
 					<Mail color="#14213d" size={45} />
+					Email
 				</a>
-				<div style={{ flex: 1, cursor: "pointer", alignItems: 'center' }}>
-
-					<Link href='/blog'>
-						<a >
+				<div className={styles.link}>
+					<Link href='/blog' >
+						< >
 							<PenTool color="#14213d" size={45} />
-						</a>
+							Blog
+						</>
 					</Link>
 				</div>
+
 			</div>
 		</>
 	);

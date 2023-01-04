@@ -23,10 +23,37 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 15%;
+	width: 35%;
 	min-width: 300px;
 	margin-top: 30px;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+}
+
+.subtitle a {
+	text-decoration-line: none;
+	color: #14213d;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 10px;
+	max-width: 25%;
+}
+
+.link {
+	text-decoration-line: none;
+	color: #14213d;
+	flex: 1;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	max-width: 25%;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-evenly;
 }
