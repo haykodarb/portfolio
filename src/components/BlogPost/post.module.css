@@ -39,6 +39,7 @@
 }
 
 .subtitle {
+    text-align: center;
     font-size: 20px;
     font-weight: 300;
 }
@@ -61,14 +62,20 @@
 }
 
 .markdown p {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .markdown li {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .markdown a {
     color: crimson;
     text-decoration: none;
+}
+
+.markdown blockquote {
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
 }
