@@ -4,9 +4,10 @@ description: Open Source and how it relates to Capitalism.
 ---
 
 Within the last couple of decades, there have been many interesting developments in the software world, specifically relating to the revolutionary nature of Free and Open Source Software (FOSS), which have not been given the attention they merit by western socialists.
+
 These developments should be of importance to any socialist, regardless of their relationship to the production of software. 
 
-The main reason is that it is possible to observe in the FOSS community the creation of goods and services in a model that follows the "from each according to their abilities, to each according to their needs" pronounced by Marx in his Critique of The Gotha Program.
+This is because it is possible to observe in the FOSS community the creation of goods and services in a model that follows the "from each according to their abilities, to each according to their needs" pronounced by Marx in his Critique of The Gotha Program.
 
 To explain I would touch upon three issues relating to the free production of software: 
 
