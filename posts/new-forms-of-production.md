@@ -69,11 +69,11 @@ The point being that these contradictions that I’ve listed don’t argue again
 Quoting Hegel: 
 > Abstract self-identity has no vitality, but the positive, being in its own self a negativity, goes outside itself and undergoes alteration. Something is therefore alive only in so far as it contains contradiction within it, and moreover is this power to hold and endure the contradiction within it. [[link]](https://www.marxists.org/reference/archive/hegel/works/hl/hl431.htm)
 
-Any proper marxist should thus be able to agree that, if the creation of Open Source tools was completely isolated from Capital, and the community’s development dictated exclusively by it’s quantitative output, then it would be impossible to find any revolutionary characteristics within it. 
+Any proper marxist should thus be able to agree that, if the creation of Open Source tools was completely isolated from Capital, and the community’s progress dictated exclusively by a linear dependence to it's quantitative output, then it would be impossible to find any revolutionary characteristics within it.
 
 As Lenin puts it:
 
 > Dialectics is the teaching which shows how opposites can be and how they happen to be (how they become) identical--under what conditions they are identical, transforming themselves into one another,--why the human mind should take these opposites not as dead, rigid, but as living, conditional, mobile, transforming themselves into one another. [(quote taken from Mao's On Contradiction)](https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm)
 
 Open Source appears interesting in that it seems to solve, [as Mao puts it](https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm), _“the contradiction between the social character of production and the 
-private character of ownership”_. But it becomes revolutionary in that, through it’s relationship with Capital, it develops new and complex contradictions which in turn need resolving. It is in these contradictions that we can see how capitalists end up aiding in the creation of a system which will render them useless.
+private character of ownership”_. But it becomes revolutionary in that, through it’s relationship with Capital, it develops new and complex contradictions which in turn need resolving. It is in these contradictions that we can see the ways in which capitalists end up aiding in the creation of a system which will ultimately render them useless.
