@@ -41,7 +41,6 @@
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 10px;
-	max-width: 25%;
 }
 
 .link {
@@ -51,7 +50,6 @@
 	text-align: center;
 	padding: 10px;
 	display: flex;
-	max-width: 25%;
 	flex-direction: row;
 	align-items: center;
 	cursor: pointer;

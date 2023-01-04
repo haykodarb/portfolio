@@ -23,10 +23,10 @@ const Hero = () => {
 				</a>
 				<div className={styles.link}>
 					<Link href='/blog' >
-						< >
+						<a>
 							<PenTool color="#14213d" size={45} />
 							Blog
-						</>
+						</a>
 					</Link>
 				</div>
 
