@@ -5,10 +5,12 @@ const AboutMe = () => {
 		<div className={styles.container}>
 			<h2 className={styles.title}>About me</h2>
 			<p className={styles.text}>
-				Mi nombre es Hayk Darbinyan, soy un estudiante de Ingeniería Mecánica en
-				la ciudad de San Carlos de Bariloche en la provincia de Rio Negro. Me
-				dedico profesionalmente al desarrollo de hardware y software, tanto en
-				mi trabajo como en mi tiempo personal.
+				Mi nombre es Hayk Darbinyan, soy un desarrollador de
+				la ciudad de San Carlos de Bariloche en la provincia de Rio Negro. 
+				<br />
+				<br />
+				Me dedico profesionalmente a la creación de hardware, firmware y software, tanto en
+				mi trabajo profesional como en mi tiempo personal.
 				<br />
 				<br />
 				Esto incluye la creación dispositivos electrónicos, tanto en el diseño

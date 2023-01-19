@@ -23,19 +23,6 @@
         "title": "Controlador de termotanque solar.",
         "description": "Se trata de un controlador electrónico que permite al usuario acceder a un dispositivo encargado de controlar la resistencia eléctrica de un termotanque solar. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores, encender o apagar un relé mecánico en función de los mismos. <br /><br /> El microcontrolador actúa como WebServer, sirviendo información mediante WebSockets y por HTTP, al cual el usuario accede de manera local a través de una aplicación movil. <br /><br />Dicha aplicación está desarrollada en Flutter, con capacidad de conectarse a distintos dispositivos simultáneamente, acceder a data histórica del dispositivo y ajustar los parámetros de control del dispositivo."
       }
-    },
-    {
-      "id": "prettykitty",
-      "href": "/project/prettykitty",
-      "title": "Pretty Kitty Twitty",
-      "description": "Bot de Twitter para subir fotos de gatitos desde la cuenta del usuario de manera periódica.",
-      "internalDetails": {
-        "images": ["/prettykitty.png"],
-        "title": "Pretty Kitty Twitty",
-        "description": "Consiste de un bot de Twitter al que uno inicia sesión con su propia cuenta. El usuario entonces puede subir imágenes de gatitos y esperar a que el bot las suba periódicamente. <br /><br />Utiliza una API externa para filtrar el contenido de las imágenes antes de subirlas a una base de datos mongoDB. Luego un cronjob se encarga de twittear una de las fotos cada 3 horas.",
-        "githubLink": "https://github.com/haykodarb/node_prettykittytwitty",
-        "webLink": "https://prettykittytwitty.hayk.ar/"
-      }
     }
   ]
 }

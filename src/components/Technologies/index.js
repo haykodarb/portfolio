@@ -5,8 +5,29 @@ const Technologies = () => {
 		<div className={styles.container}>
 			<h2 className={styles.techTitle}>Tecnologías trabajadas</h2>
 			<div className={styles.subContainer}>
+			<div className={styles.subCategory}>
+					<h3 className={styles.subCategoryTitle}>Embedded</h3>
+					<ul className={styles.techList}>
+						<li className={styles.listItem}>
+							<img src="/tech/c.png" className={styles.itemImage} />
+							<p>Embedded C / C++</p>
+						</li>
+						<li className={styles.listItem}>
+							<img src="/tech/kicad.png" className={styles.itemImage} />
+							<p>KiCAD</p>
+						</li>
+						<li className={styles.listItem}>
+							<img src="/tech/rtos.png" className={styles.itemImage} />
+							<p>RTOS</p>
+						</li>
+						<li className={styles.listItem}>
+							<img src="/tech/iot.png" className={styles.itemImage} />
+							<p>IoT</p>
+						</li>
+					</ul>
+				</div>
 				<div className={styles.subCategory}>
-					<h3 className={styles.subCategoryTitle}>Front-End</h3>
+					<h3 className={styles.subCategoryTitle}>Frontend</h3>
 					<ul className={styles.techList}>
 						<li className={styles.listItem}>
 							<img src="/tech/react.png" className={styles.itemImage} />
@@ -27,7 +48,7 @@ const Technologies = () => {
 					</ul>
 				</div>
 				<div className={styles.subCategory}>
-					<h3 className={styles.subCategoryTitle}>Back-End</h3>
+					<h3 className={styles.subCategoryTitle}>Backend</h3>
 					<ul className={styles.techList}>
 						<li className={styles.listItem}>
 							<img src="/tech/nodejs.png" className={styles.itemImage} />
@@ -48,27 +69,7 @@ const Technologies = () => {
 					</ul>
 				</div>
 
-				<div className={styles.subCategory}>
-					<h3 className={styles.subCategoryTitle}>Electrónica</h3>
-					<ul className={styles.techList}>
-						<li className={styles.listItem}>
-							<img src="/tech/c.png" className={styles.itemImage} />
-							<p>Embedded C / C++</p>
-						</li>
-						<li className={styles.listItem}>
-							<img src="/tech/kicad.png" className={styles.itemImage} />
-							<p>KiCAD</p>
-						</li>
-						<li className={styles.listItem}>
-							<img src="/tech/rtos.png" className={styles.itemImage} />
-							<p>RTOS</p>
-						</li>
-						<li className={styles.listItem}>
-							<img src="/tech/iot.png" className={styles.itemImage} />
-							<p>IoT</p>
-						</li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 	);
