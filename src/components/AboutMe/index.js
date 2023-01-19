@@ -13,7 +13,7 @@ const AboutMe = () => {
 				mi trabajo profesional como en mi tiempo personal.
 				<br />
 				<br />
-				Esto incluye la creación dispositivos electrónicos, tanto en el diseño
+				Esto incluye el diseño de dispositivos electrónicos, tanto en el diseño
 				del circuito y el PCB como en el desarrollo del firmware, así como
 				también la programación de servidores, paginas web y aplicaciones
 				moviles.
