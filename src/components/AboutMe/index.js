@@ -10,7 +10,7 @@ const AboutMe = () => {
 				<br />
 				<br />
 				Me dedico profesionalmente a la creación de hardware, firmware y software, tanto en
-				mi trabajo profesional como en mi tiempo personal.
+				lo profesional como en mi tiempo personal.
 				<br />
 				<br />
 				Esto incluye el diseño de dispositivos electrónicos, tanto en el diseño
