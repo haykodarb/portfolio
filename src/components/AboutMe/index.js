@@ -9,14 +9,12 @@ const AboutMe = () => {
 				la ciudad de San Carlos de Bariloche en la provincia de Rio Negro. 
 				<br />
 				<br />
-				Me dedico profesionalmente a la creación de hardware, firmware y software, tanto en
+				Me dedico a la producción de hardware, firmware y software, tanto en
 				lo profesional como en mi tiempo personal.
 				<br />
 				<br />
-				Esto incluye el diseño de dispositivos electrónicos, tanto en el diseño
-				del circuito y el PCB como en el desarrollo del firmware, así como
-				también la programación de servidores, paginas web y aplicaciones
-				moviles.
+				Esto incluye la creación de dispositivos electrónicos, diseño de circuitos y PCBs, programación de firmware 
+				y desarrollo de servidores, paginas web y aplicaciones moviles.
 				<br />
 				<br />
 				Además de todo esto soy también un gran entusiasta del Free Software y
