@@ -23,4 +23,6 @@
 	max-width: 100%;
 	flex-wrap: wrap;
 	flex-direction: row;
+	padding-right: 5%;
+	padding-left: 5%;
 }

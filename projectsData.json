@@ -23,6 +23,17 @@
         "title": "Controlador de termotanque solar.",
         "description": "Se trata de un controlador electrónico que permite al usuario acceder a un dispositivo encargado de controlar la resistencia eléctrica de un termotanque solar. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores, encender o apagar un relé mecánico en función de los mismos. <br /><br /> El microcontrolador actúa como WebServer, sirviendo información mediante WebSockets y por HTTP, al cual el usuario accede de manera local a través de una aplicación movil. <br /><br />Dicha aplicación está desarrollada en Flutter, con capacidad de conectarse a distintos dispositivos simultáneamente, acceder a data histórica del dispositivo y ajustar los parámetros de control del dispositivo."
       }
+    },
+    {
+      "id": "communal",
+      "href": "/project/communal",
+      "title": "Communal",
+      "description": "Aplicación de bibliotecas decentralizadas para compartir libros entre miembros de una comunidad.",
+      "internalDetails": {
+        "images": ["/termotanque1.jpg", "/termotanque2.jpg","/termotanque3.jpg"],
+        "title": "Communal.",
+        "description": "Se trata de un controlador electrónico que permite al usuario acceder a un dispositivo encargado de controlar la resistencia eléctrica de un termotanque solar. <br /><br />El dispositivo se encuentra armado alrededor del microcontrolador ESP8266, programado para obtener los valores de los sensores, encender o apagar un relé mecánico en función de los mismos. <br /><br /> El microcontrolador actúa como WebServer, sirviendo información mediante WebSockets y por HTTP, al cual el usuario accede de manera local a través de una aplicación movil. <br /><br />Dicha aplicación está desarrollada en Flutter, con capacidad de conectarse a distintos dispositivos simultáneamente, acceder a data histórica del dispositivo y ajustar los parámetros de control del dispositivo."
+      }
     }
   ]
 }
