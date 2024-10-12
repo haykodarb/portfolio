@@ -48,7 +48,6 @@
 					operating systems for 5 years now. Currently running Ubuntu for my personal server and
 					NixOS for my desktop machine.
 				</li>
-				margin-bottom: 5px;
 				<li>
 					Worked developing tools and products for diverse industries such as space, chemistry,
 					health, agriculture and transport.
