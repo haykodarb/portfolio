@@ -80,7 +80,7 @@
 						<p class="list-title date">2020 - ongoing</p>
 					</li>
 					<ul>
-						<li>Firmware and hardware development in space related project.</li>
+						<li>Firmware and hardware development in space/avionics related project.</li>
 						<li>Management of bussiness related servers.</li>
 						<li>General IT responsibilities.</li>
 						<li>
@@ -134,8 +134,8 @@
 	}
 
 	li {
-		margin-bottom: 0.5vh;
-		margin-top: 0.5vh;
+		margin-bottom: 1vh;
+		margin-top: 1vh;
 	}
 
 	#page {
