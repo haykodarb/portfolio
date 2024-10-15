@@ -37,8 +37,7 @@
 			<ul>
 				<li>
 					Profficient in
-					<span class="highlighted">C, C++, Dart and Javascript</span>
-					.
+					<span class="highlighted">C, C++, Dart and Javascript.</span>
 				</li>
 				<li>
 					Knowledgeable about
@@ -55,19 +54,19 @@
 				</li>
 				<li>
 					Mobile, desktop and web app development with <span class="highlighted"
-						>Flutter, Qt and various Javascript frameworks</span
-					>.
+						>Flutter, Qt and various Javascript frameworks.</span
+					>
 				</li>
 				<li>Database management using <span class="highlighted">PostgreSQL/MySQL</span>.</li>
 				<li>
 					<span class="highlighted">Linux</span> for use in both desktops and servers.
 				</li>
-				<li>Schematic and PCB design and review</li>
+				<li><span class="highlighted">Schematic and PCB</span> design and review.</li>
+				<li>Fluent in <span class="highlighted">English, Spanish</span> and Armenian.</li>
 				<li>
 					Worked developing tools and products for diverse industries such as space, chemistry,
 					health, agriculture and transport.
 				</li>
-				<li>Fluent in English, Spanish and Armenian.</li>
 			</ul>
 		</div>
 
@@ -85,8 +84,8 @@
 						<li>Management of bussiness related servers.</li>
 						<li>General IT responsibilities.</li>
 						<li>
-							Firmware and hardware development in electronic seeder project. (joint project with
-							Emtech)
+							Firmware and hardware development in electronic seeder project (joint project with
+							Emtech).
 						</li>
 						<li>Firmware, hardware and mobile app development for truck weight-scale project.</li>
 					</ul>
