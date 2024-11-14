@@ -18,6 +18,7 @@
 			<div id="profile-name">
 				<h1 class="title">Hayk Darbinyan</h1>
 				<h3 class="subtitle">Embedded Engineer from Argentina</h3>
+				<h3 class="subtitle">Currently available for freelance work</h3>
 				<div style="display: flex; flex-direction: row; align-items: end;">
 					<h3 class="subtitle">Contact:&nbsp;</h3>
 					<a href="mailto: work@hayk.ar" class="subtitle link"> work@hayk.ar </a>
@@ -28,8 +29,7 @@
 			<h1 class="category-title">About</h1>
 			<p>
 				Embedded software engineer with over 4 years of experience developing solutions in realtime
-				systems. Seeking to leverage experience in firmware programming, hardware integration and
-				app development to advance projects, build prototypes and launch products.
+				systems. Currently available for freelance work.
 			</p>
 		</div>
 		<div class="category-container">
@@ -81,13 +81,13 @@
 					</li>
 					<ul>
 						<li>Firmware and hardware development in space/avionics related project.</li>
-						<li>Management of bussiness related servers.</li>
-						<li>General IT responsibilities.</li>
 						<li>
 							Firmware and hardware development in electronic seeder project (joint project with
 							Emtech).
 						</li>
 						<li>Firmware, hardware and mobile app development for truck weight-scale project.</li>
+						<li>Management of bussiness related servers.</li>
+						<li>General IT responsibilities.</li>
 					</ul>
 				</div>
 				<div style="margin-top: 1em;">
