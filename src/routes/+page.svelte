@@ -18,7 +18,6 @@
 			<div id="profile-name">
 				<h1 class="title">Hayk Darbinyan</h1>
 				<h3 class="subtitle">Embedded Engineer from Argentina</h3>
-				<h3 class="subtitle">Currently available for freelance work</h3>
 				<div style="display: flex; flex-direction: row; align-items: end;">
 					<h3 class="subtitle">Contact:&nbsp;</h3>
 					<a href="mailto: work@hayk.ar" class="subtitle link"> work@hayk.ar </a>
