@@ -53,7 +53,7 @@
 				</li>
 				<li>
 					Mobile, desktop and web app development with <span class="highlighted"
-						>Flutter, Qt and various Javascript frameworks.</span
+						>Flutter, Qt, React and Svelte.</span
 					>
 				</li>
 				<li>Database management using <span class="highlighted">PostgreSQL/MySQL</span>.</li>
@@ -75,7 +75,7 @@
 			<ul>
 				<div>
 					<li class="list-title">
-						<a target="”_blank”" href="https://aratom.com/" class="subtitle link">Aratom</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://aratom.com/" class="subtitle link">Aratom</a>
 						<p class="list-title date">2020 - ongoing</p>
 					</li>
 					<ul>
@@ -91,7 +91,7 @@
 				</div>
 				<div style="margin-top: 1em;">
 					<li class="list-title">
-						<a target="”_blank”" href="https://www.emtechsa.com/" class="subtitle link">Emtech</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://www.emtechsa.com/" class="subtitle link">Emtech</a>
 						<p class="list-title date">2020 - 2023</p>
 					</li>
 					<ul>
@@ -106,11 +106,11 @@
 			<h1 class="category-title">Personal Projects</h1>
 			<ul>
 				<li style="list-style-type: none; padding: 0; margin: 0;">
-					<a target="”_blank”" href="https://communal.ar" class="subtitle link">Communal</a>
+					<a target="_blank" rel="noopener noreferrer" href="https://communal.ar" class="subtitle link">Communal</a>
 					<p style="margin: 0; padding: 0;">Semi-decentralized physical book sharing platform.</p>
 				</li>
 				<li style="list-style-type: none; padding: 0; margin: 0; margin-top: 1em;">
-					<a target="”_blank”" href="https://kassen.hayk.ar" class="subtitle link">Kassen</a>
+					<a target="_blank" rel="noopener noreferrer" href="https://kassen.hayk.ar" class="subtitle link">Kassen</a>
 					<p style="margin: 0; padding: 0;">Greenhouse temperature monitoring station.</p>
 				</li>
 				<li style="list-style-type: none; padding: 0; margin: 0; margin-top: 1em;">
