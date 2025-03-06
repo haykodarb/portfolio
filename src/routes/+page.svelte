@@ -110,10 +110,6 @@
 					<p style="margin: 0; padding: 0;">Semi-decentralized physical book sharing platform.</p>
 				</li>
 				<li style="list-style-type: none; padding: 0; margin: 0; margin-top: 1em;">
-					<a target="_blank" rel="noopener noreferrer" href="https://kassen.hayk.ar" class="subtitle link">Kassen</a>
-					<p style="margin: 0; padding: 0;">Greenhouse temperature monitoring station.</p>
-				</li>
-				<li style="list-style-type: none; padding: 0; margin: 0; margin-top: 1em;">
 					<a href="/arev" class="subtitle link">Arev</a>
 					<p style="margin: 0; padding: 0;">
 						Solar waterheater temperature monitor and controller.
