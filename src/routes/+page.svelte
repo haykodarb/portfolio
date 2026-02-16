@@ -27,7 +27,7 @@
 		<div class="category-container">
 			<h1 class="category-title">About</h1>
 			<p>
-				Embedded software engineer with over 4 years of experience developing solutions in realtime
+				Embedded software engineer with over 5 years of experience developing solutions in realtime
 				systems. Currently available for freelance work.
 			</p>
 		</div>
@@ -36,15 +36,15 @@
 			<ul>
 				<li>
 					Profficient in
-					<span class="highlighted">C, C++, Dart and Javascript.</span>
+					<span class="highlighted">C, C++, Dart and Typescript.</span>
 				</li>
 				<li>
-					Knowledgeable about
+					Experienced with
 					<span class="highlighted">Real Time Operating Systems</span>, have used ChibiOS and
 					FreeRTOS extensively.
 				</li>
 				<li>
-					Ample work with <span class="highlighted">STM32 microcontrollers</span>, including
+					Ample work with <span class="highlighted">STM32 and ESP32 </span>microcontrollers, including
 					configuring from scratch, interfacing with clocks, hardware timers, interrupts,
 					SPI/I2C/USB/CAN and more.
 				</li>
@@ -75,8 +75,27 @@
 			<ul>
 				<div>
 					<li class="list-title">
-						<a target="_blank" rel="noopener noreferrer" href="https://aratom.com/" class="subtitle link">Aratom</a>
-						<p class="list-title date">2020 - ongoing</p>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.mintmobile.com/"
+							class="subtitle link">Mint Mobile</a
+						>
+						<p class="list-title date">2025 - ongoing</p>
+					</li>
+					<ul>
+						<li>Frontend Development in React and NextJS</li>
+					</ul>
+				</div>
+				<div style="margin-top: 1em;">
+					<li class="list-title">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://aratom.com/"
+							class="subtitle link">Aratom</a
+						>
+						<p class="list-title date">2020 - 2025</p>
 					</li>
 					<ul>
 						<li>Firmware and hardware development in space/avionics related project.</li>
@@ -91,7 +110,12 @@
 				</div>
 				<div style="margin-top: 1em;">
 					<li class="list-title">
-						<a target="_blank" rel="noopener noreferrer" href="https://www.emtechsa.com/" class="subtitle link">Emtech</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.emtechsa.com/"
+							class="subtitle link">Emtech</a
+						>
 						<p class="list-title date">2020 - 2023</p>
 					</li>
 					<ul>
@@ -106,7 +130,12 @@
 			<h1 class="category-title">Personal Projects</h1>
 			<ul>
 				<li style="list-style-type: none; padding: 0; margin: 0;">
-					<a target="_blank" rel="noopener noreferrer" href="https://communal.ar" class="subtitle link">Communal</a>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://communal.ar"
+						class="subtitle link">Communal</a
+					>
 					<p style="margin: 0; padding: 0;">Semi-decentralized physical book sharing platform.</p>
 				</li>
 				<li style="list-style-type: none; padding: 0; margin: 0; margin-top: 1em;">
